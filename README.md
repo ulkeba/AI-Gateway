@@ -123,7 +123,7 @@ Acknowledging the rising dominance of Python, particularly in the realm of AI, a
 
 1. Clone this repo and configure your local machine with the prerequisites. Or just create a [GitHub Codespace](https://codespaces.new/Azure-Samples/AI-Gateway/tree/main) and run it on the browser or in VS Code.
 2. Navigate through the available labs and select one that best suits your needs. For starters we recommend the [backend pool load balancing](labs/backend-pool-load-balancing/backend-pool-load-balancing.ipynb).
-3. Open the notebook and run the provided steps.
+3. Open the notebook, uncomment the line defining `participant_id`, assign a value identifying yourself and run the provided steps.
 4. Tailor the experiment according to your requirements. If you wish to contribute to our collective work, we would appreciate your [submission of a pull request](CONTRIBUTING.MD).
 
 > [!NOTE]
