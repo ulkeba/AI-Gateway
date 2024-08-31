@@ -121,7 +121,32 @@ Acknowledging the rising dominance of Python, particularly in the realm of AI, a
 
 ### Quickstart
 
-1. Clone this repo and configure your local machine with the prerequisites. Or just create a [GitHub Codespace](https://codespaces.new/Azure-Samples/AI-Gateway/tree/main) and run it on the browser or in VS Code.
+#### ☁️ Getting ready -- Superquickstart with GitHub Codespace
+
+Just create a [GitHub Codespace](https://codespaces.new/Azure-Samples/AI-Gateway/tree/main) and run it on the browser or in VS Code.
+
+#### 💻 Getting ready -- On your dev machine
+1. Configure your local machine with the prerequisites.
+1. Clone this repository.
+1. Create (and activate) a new virtual environment.
+   ```
+   python3 -m venv env
+   source env/bin/activate
+   ```
+1. Install IPython kernel into the virtual environment.
+   ```
+   pip install ipykernel
+   ipython kernel install --user --name=env
+   ```
+1. Install remaining dependencies.
+   ```
+   pip install -r requirements.txt
+   ```
+
+
+
+#### Explore the labs
+
 2. Navigate through the available labs and select one that best suits your needs. For starters we recommend the [backend pool load balancing](labs/backend-pool-load-balancing/backend-pool-load-balancing.ipynb).
 3. Open the notebook and run the provided steps.
 4. Tailor the experiment according to your requirements. If you wish to contribute to our collective work, we would appreciate your [submission of a pull request](CONTRIBUTING.MD).
