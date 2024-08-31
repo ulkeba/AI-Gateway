@@ -1,1 +1,5 @@
 openai===1.16.2
+requests
+pandas
+matplotlib
+msal
